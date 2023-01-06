@@ -1,0 +1,39 @@
+.social{
+    width: 25px;
+    margin: 10px;
+    filter: invert();
+}
+
+.social>img{
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(179, 45, 28);
+    width: 100%;
+}
+
+.contact{
+    color: rgb(255, 255, 255);
+    margin: auto 0 auto 5px;
+    font-size: 13px;
+}
+
+@media screen and (min-width: 768px) {
+    .contact{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    footer{
+        position: relative;
+    }
+
+    .contact{
+        position: absolute;
+        right: 0;
+        margin: auto 40px auto 0;
+    }
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+.banner {
+    position: relative;
+}
+
+.sentenceOne{
+    position: absolute;
+    top: 0;
+    color: rgb(247, 230, 230);
+    font-size: 55px;
+    font-family: 'Sofia', cursive;
+    margin: 0 20px;
+}
+
+.imgBanner>img{
+    filter: contrast(50%);
+}
+
+#combo{
+    text-align: center;
+    font-family: 'Sofia', cursive;
+}
+
+.container{
+    width: 60%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Sofia', cursive;
+    color: rgba(221, 21, 21, 0.87);
+    margin: 5px 0;
+}
+
+.icon{
+    width: 80px;
+    margin: 0 auto;
+}
+
+.icon>img{
+    width: 100%;
+}
+
+h5{
+    font-family: 'Sofia', cursive;
+}
+
+@media screen and (min-width: 768px){
+    .sentenceOne{
+        font-size: 120px;
+    }
+
+    #combo{
+        font-size: 50px;
+    }
+
+    .combos{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contenido::before {
+        content: "el mejor sabor para empezar mejor el dia";
+        position: absolute;
+        font-size: 135px;
+        font-family: 'Sofia', cursive;
+        color: rgb(253, 240, 212);
+        margin: 0 20px;
+        bottom: 20px;
+    }
+
+    .sentenceOne{
+        font-size: 150px;
+    }
+
+    .container{
+        width: 30%;
+    }
+
+    .combos{
+        margin: 0 auto;
+    }
+}
